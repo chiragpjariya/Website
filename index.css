@@ -1,0 +1,103 @@
+body{
+    background-image:url('abstract-technological-background_23-2148897676.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: grid;
+    place-items: center;
+    text-transform: capitalize;
+}
+h1{
+    align-items: center;
+    color:#fcf5e5;
+    font-size: 90px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: xx-large;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    gap:90px;
+    flex-wrap: wrap;
+    align-items: center;
+    place-content: center;
+
+}
+.btn{
+    cursor: pointer;
+    flex: 2 100px;
+}
+button{
+    background-color:yellow;
+    height: 100px;
+    border: 3px solid black;
+    width: 100px;
+}
+button:nth-child(2){
+    background-color: rgb(34, 250, 5);
+}
+
+button:nth-child(3){
+    background-color: rgb(152, 5, 250);
+}
+button:nth-child(4){
+    background-color: rgb(250, 209, 5);
+}
+button:nth-child(5){
+    background-color: rgb(250, 5, 250);
+}
+
+.btn:active{
+    background-color: rgb(12, 235, 235);
+    transition: all 0s ease-in-out;
+}
+
+@media screen and (max-width:767px) {
+    header{
+        display: grid;
+        place-items: center;
+        text-transform: capitalize;
+    }
+    h1{
+        align-items: center;
+        color:#fcf5e5;
+        font-size: 40px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    .container{
+        margin-top: 10px;
+        display: flex;
+        gap:90px;
+        flex-wrap: wrap;
+        align-items: center;
+        place-content: center;
+        flex-direction: column;
+    
+    }
+    .btn{
+        cursor: pointer;
+        flex: 3 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+    
+    }
+}
