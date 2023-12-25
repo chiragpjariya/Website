@@ -1,0 +1,28 @@
+.container{
+    display: grid;
+    place-items: center;
+    height: 10vh;
+    gap: 20px;
+    margin-top: 90px;
+  
+}
+
+.box{
+    margin-top: 210px;
+    height: 60px;
+    width: 210px;
+    border:  black 1px solid;
+    color:black;
+    background-color: black;
+    color:gold;
+    text-align: center;
+    margin-top:40px ;
+    font-size: 40px;
+    border-radius: 40px;
+}
+button:active{
+   border-color:blue;
+   border: 3px solid blue;
+   cursor: pointer;
+
+}

@@ -1,0 +1,39 @@
+/******************************************project 1 css */
+
+.boxs {
+    display: flex;
+    margin-left: 42%;
+
+}
+
+#red {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border: 2px solid black;
+    margin-right: 50px;
+}
+
+#yellow {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border: 2px solid black;
+    margin-right: 50px;
+}
+
+#pink {
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    border: 2px solid black;
+    margin-right: 50px;
+}
+
+#orange {
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    border: 2px solid black;
+    margin-right: 50px;
+}
